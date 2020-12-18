@@ -1,13 +1,13 @@
-document.getElementById("id1").addEventListener("click", myfunction);
+document.getElementById("id-1").addEventListener("click", myfunction);
 function myfunction() {
 
 let baseA;
 let baseB;
 let height;
 let answer;
-baseA=document.getElementById("BaseA").value;
-baseB=document.getElementById("BaseB").value;
-height=document.getElementById("Height").value;
+baseA=document.getElementById("base-a").value;
+baseB=document.getElementById("base-b").value;
+height=document.getElementById("height").value;
 baseA=parseInt(baseA);
 baseB=parseInt(baseB);
 height=parseInt(height);
